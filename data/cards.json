@@ -1,0 +1,86 @@
+{
+  "cards": [
+    {
+      "id": "farmer",
+      "name": "Фермер",
+      "cost": 2,
+      "power": 1,
+      "faction": "neutral",
+      "type": "human",
+      "reserve_turn": 0,
+      "art": "res://assets/cards/farmer.png",
+      "is_full_art": true,
+      "rarity": "common",
+      "description": "При раскрытии: дает +1 💧 энергии на следующем ходу."
+    },
+    {
+      "id": "mountain_guardian",
+      "name": "Горный Страж",
+      "cost": 3,
+      "power": 2,
+      "faction": "neutral",
+      "type": "stone",
+      "reserve_turn": 0,
+      "art": "res://assets/cards/stone.png",
+      "is_full_art": true,
+      "rarity": "rare",
+      "description": "При раскрытии: Камнепад — отнимает 1 ⚔️ силу у всех карт врага в этой зоне."
+    },
+    {
+      "id": "dice",
+      "name": "Игровая Кость",
+      "cost": 3,
+      "power": 0,
+      "card_type": "spell",
+      "faction": "neutral",
+      "type": "spell",
+      "reserve_turn": 0,
+      "art": "res://assets/cards/dice.png",
+      "is_full_art": true,
+      "rarity": "epic",
+      "description": "Заклинание мгновенного действия (3 💧). Бросок d6: бросает кубик (1-6) и СРАЗУ добавляет выпавшую силу вашей стороне в этом секторе! При выпадении 6 — отнимает 2 силы у карт врага."
+    },
+    {
+      "id": "archer",
+      "name": "Лучник",
+      "cost": 2,
+      "power": 0,
+      "card_type": "unit",
+      "faction": "neutral",
+      "type": "human",
+      "reserve_turn": 0,
+      "art": "res://assets/cards/archer.png",
+      "is_full_art": true,
+      "rarity": "rare",
+      "description": "При раскрытии: Прицельный выстрел — при входе в игру стреляет и приносит от 1 до 4 случайных очков (1-4 ⚔️) в силу своей зоны!"
+    },
+    {
+      "id": "fire_mage",
+      "name": "Огненный Маг",
+      "cost": 4,
+      "power": 2,
+      "card_type": "unit",
+      "faction": "neutral",
+      "type": "mystic",
+      "reserve_turn": 0,
+      "art": "res://assets/cards/fire_mage.png",
+      "is_full_art": true,
+      "rarity": "epic",
+      "description": "При раскрытии: Воспламенение — наносит 3 урона карте противника с наибольшей силой в этой зоне."
+    },
+    {
+      "id": "scout",
+      "name": "Разведчик",
+      "cost": 1,
+      "power": 1,
+      "card_type": "unit",
+      "faction": "neutral",
+      "type": "human",
+      "reserve_turn": 0,
+      "art": "res://assets/cards/scout.png",
+      "is_full_art": true,
+      "rarity": "common",
+      "description": "При раскрытии: Разведка — если в этом секторе у противника ещё нет карт, приносит +1 очко в силу сектора (итого 2 ⚔️)!"
+    }
+  ]
+}

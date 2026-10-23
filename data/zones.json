@@ -1,0 +1,40 @@
+{
+  "zones": [
+    {
+      "id": "lava_citadel",
+      "name": "Лавовая Цитадель",
+      "art": "res://assets/zones/lava_citadel.png",
+      "description": "В конце каждого хода все карты здесь теряют по 1 очку силы."
+    },
+    {
+      "id": "shadow_world",
+      "name": "Мир Теней",
+      "art": "res://assets/zones/shadow_world.png",
+      "description": "Карты типа Тень получают бонус +2 к мощи."
+    },
+    {
+      "id": "planet_arhas",
+      "name": "Планета Архаса",
+      "art": "res://assets/zones/planet_arhas.png",
+      "description": "Святыня: дает +2 к силе всем Крестовым картам."
+    },
+    {
+      "id": "bunker",
+      "name": "Бункер",
+      "art": "res://assets/zones/bunker.png",
+      "description": "Первая сыгранная сюда карта получает укрепление +2 к мощи."
+    },
+    {
+      "id": "nesquik_court",
+      "name": "Зал Судьи",
+      "art": "res://assets/zones/nesquik_court.png",
+      "description": "Бросок кубика 🎲 при входе: нечёт дает +1 к мощи, чёт -1."
+    },
+    {
+      "id": "techno_core",
+      "name": "Техно-Фабрика",
+      "art": "res://assets/zones/techno_core.png",
+      "description": "Карты Техно и Роботы получают +1 к мощи при розыгрыше сюда."
+    }
+  ]
+}

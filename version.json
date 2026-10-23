@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "changelog": "Стартовый релиз: 6 авторских карт (Фермер, Страж, Кость, Лучник, Маг, Разведчик)",
+  "files": [
+    "data/cards.json",
+    "data/zones.json",
+    "assets/cards/farmer.png",
+    "assets/cards/stone.png",
+    "assets/cards/archer.png",
+    "assets/cards/dice.png",
+    "assets/cards/fire_mage.png",
+    "assets/cards/scout.png"
+  ]
+}
